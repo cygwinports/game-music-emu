@@ -1,0 +1,6 @@
+category: Audio
+requires: libgcc1 libstdc++6
+external-source: game-music-emu
+sdesc: "Video game music file emulator library (runtime)"
+ldesc: "Game_Music_Emu is a collection of video game music file 
+emulators that support several formats and systems."

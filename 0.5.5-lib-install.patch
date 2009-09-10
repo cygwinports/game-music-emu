@@ -1,0 +1,12 @@
+--- origsrc/game-music-emu-0.5.5/gme/CMakeLists.txt	2009-09-10 00:23:45.607850600 -0500
++++ src/game-music-emu-0.5.5/gme/CMakeLists.txt	2009-09-10 00:23:31.000000000 -0500
+@@ -158,6 +158,8 @@ set_target_properties(gme
+                SOVERSION 0)
+ 
+ # TODO: Libsuffix for 64-bit?
+-install(TARGETS gme LIBRARY DESTINATION lib)
++install(TARGETS gme LIBRARY DESTINATION lib
++                    RUNTIME DESTINATION bin
++                    ARCHIVE DESTINATION lib)
+ 
+ install(FILES ${EXPORTED_HEADERS} DESTINATION include/gme)

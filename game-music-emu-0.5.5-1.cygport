@@ -1,0 +1,12 @@
+inherit cmake
+
+DESCRIPTION="Video game music file emulator library"
+HOMEPAGE="http://code.google.com/p/game-music-emu/"
+SRC_URI="http://game-music-emu.googlecode.com/files/${P}.tbz2"
+PATCH_URI="0.5.5-lib-install.patch"
+
+PKG_NAMES="${PN} libgme0 libgme-devel"
+libgme0_CONTENTS="usr/bin/cyggme-0.dll usr/share/doc/"
+libgme_devel_CONTENTS="usr/include/ usr/lib/"
+
+DOCS="*.txt"
