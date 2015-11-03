@@ -7,8 +7,8 @@ CATEGORY="Libs"
 SUMMARY="Video game music file emulator library"
 DESCRIPTION="Game_Music_Emu is a collection of video game music file
 emulators that support several formats and systems."
-HOMEPAGE="http://code.google.com/p/game-music-emu/"
-SRC_URI="http://game-music-emu.googlecode.com/files/${NAME}-${VERSION}.tar.bz2"
+HOMEPAGE="https://bitbucket.org/mpyne/game-music-emu"
+SRC_URI="https://bitbucket.org/mpyne/game-music-emu/downloads/${NAME}-${VERSION}.tar.bz2"
 
 PKG_NAMES="libgme0 libgme-devel"
 libgme0_CONTENTS="usr/bin/cyggme-0.dll usr/share/doc/"
